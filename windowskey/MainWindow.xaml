@@ -1,0 +1,118 @@
+﻿<Window x:Class="windowskey.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:windowskey"
+        mc:Ignorable="d"
+        WindowStyle="None" Closing="Window_Closing" AllowsTransparency="True" Initialized="Window_Initialized"  Background="Transparent" Title="MainWindow" Height="618" Width="868">
+    <Grid>
+        <Image Source="/jiaran.jpg" Margin="234,0,181,313"  ></Image>
+
+        <Border  Background="Transparent">
+            <Grid>
+
+                <Grid x:Name="Grids" Background="White" Height="100" Width="450"   RenderTransformOrigin="0.5,0.5" Margin="40,141,40,49">
+                    <Grid.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform AngleX="-30" AngleY="0"/>
+                            <RotateTransform Angle="180"/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </Grid.RenderTransform>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="1*"></RowDefinition>
+                        <RowDefinition Height="1*"></RowDefinition>
+                        <RowDefinition Height="1*"></RowDefinition>
+                        <RowDefinition Height="1*"></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <Label  BorderBrush="Red" BorderThickness="1,2,1,1" FontSize="10" Grid.Row="0" Grid.Column="1"  HorizontalContentAlignment="Center">1</Label>
+                    <Label  BorderBrush="Red" BorderThickness="1,2,1,1" FontSize="10" Grid.Row="0" Grid.Column="2"  HorizontalContentAlignment="Center">2</Label>
+                    <Label  BorderBrush="Red" BorderThickness="1,2,1,1" FontSize="10" Grid.Row="0" Grid.Column="3"  HorizontalContentAlignment="Center">3</Label>
+                    <Label  BorderBrush="Red" BorderThickness="1,2,1,1" FontSize="10" Grid.Row="0" Grid.Column="4"  HorizontalContentAlignment="Center">4</Label>
+                    <Label  BorderBrush="Red" BorderThickness="1,2,1,1" FontSize="10" Grid.Row="0" Grid.Column="5"  HorizontalContentAlignment="Center">5</Label>
+                    <Label  BorderBrush="Red" BorderThickness="1,2,1,1" FontSize="10" Grid.Row="0" Grid.Column="6"  HorizontalContentAlignment="Center">6</Label>
+                    <Label  BorderBrush="Red" BorderThickness="1,2,1,1" FontSize="10" Grid.Row="0" Grid.Column="7"  HorizontalContentAlignment="Center">7</Label>
+                    <Label  BorderBrush="Red" BorderThickness="1,2,1,1" FontSize="10" Grid.Row="0" Grid.Column="8"  HorizontalContentAlignment="Center">8</Label>
+                    <Label  BorderBrush="Red" BorderThickness="1,2,1,1" FontSize="10" Grid.Row="0" Grid.Column="9"  HorizontalContentAlignment="Center">9</Label>
+                    <Label  BorderBrush="Red" BorderThickness="1,2,2,1" FontSize="10" Grid.Row="0" Grid.Column="10"  HorizontalContentAlignment="Center">0</Label>
+
+
+
+
+                    <Label  BorderBrush="Red" BorderThickness="2,2,1,1" FontSize="10" Grid.Row="0" Grid.Column="0" Grid.RowSpan="2"  VerticalContentAlignment="Center" HorizontalContentAlignment="Center">Escape</Label>
+                    <Label  BorderBrush="Red" BorderThickness="1" FontSize="10" Grid.Row="1" Grid.Column="1" HorizontalContentAlignment="Center">Q</Label>
+                    <Label  BorderBrush="Red" BorderThickness="1" FontSize="10" Grid.Row="1" Grid.Column="2" HorizontalContentAlignment="Center">W</Label>
+                    <Label  BorderBrush="Red" BorderThickness="1" FontSize="10" Grid.Row="1" Grid.Column="3" HorizontalContentAlignment="Center">E</Label>
+                    <Label  BorderBrush="Red" BorderThickness="1" FontSize="10" Grid.Row="1" Grid.Column="4" HorizontalContentAlignment="Center">R</Label>
+                    <Label  BorderBrush="Red" BorderThickness="1" FontSize="10" Grid.Row="1" Grid.Column="5" HorizontalContentAlignment="Center">T</Label>
+                    <Label  BorderBrush="Red" BorderThickness="1" FontSize="10" Grid.Row="1" Grid.Column="6" HorizontalContentAlignment="Center">Y</Label>
+                    <Label  BorderBrush="Red" BorderThickness="1" FontSize="10" Grid.Row="1" Grid.Column="7" HorizontalContentAlignment="Center">U</Label>
+                    <Label  BorderBrush="Red" BorderThickness="1,1,1,1" FontSize="10" Grid.Row="1" Grid.Column="8" HorizontalContentAlignment="Center">I</Label>
+                    <Label  BorderBrush="Red" BorderThickness="1,1,1,1" FontSize="10" Grid.Row="1" Grid.Column="9" HorizontalContentAlignment="Center">O</Label>
+                    <Label  BorderBrush="Red" BorderThickness="1,1,2,1" FontSize="10" Grid.Row="1" Grid.Column="10" HorizontalContentAlignment="Center">P</Label>
+                    <Label  BorderBrush="Red" BorderThickness="1,1,1,1" FontSize="10" Grid.Row="2" Grid.Column="1" HorizontalContentAlignment="Center">A</Label>
+                    <Label  BorderBrush="Red" BorderThickness="1" FontSize="10" Grid.Row="2" Grid.Column="2" HorizontalContentAlignment="Center">S</Label>
+                    <Label  BorderBrush="Red" BorderThickness="1" FontSize="10" Grid.Row="2" Grid.Column="3" HorizontalContentAlignment="Center">D</Label>
+                    <Label  BorderBrush="Red" BorderThickness="1" FontSize="10" Grid.Row="2" Grid.Column="4" HorizontalContentAlignment="Center">F</Label>
+                    <Label  BorderBrush="Red" BorderThickness="1" FontSize="10" Grid.Row="2" Grid.Column="5" HorizontalContentAlignment="Center">G</Label>
+                    <Label  BorderBrush="Red" BorderThickness="1" FontSize="10" Grid.Row="2" Grid.Column="6" HorizontalContentAlignment="Center">H</Label>
+                    <Label  BorderBrush="Red" BorderThickness="1,1,1,1" FontSize="10" Grid.Row="2" Grid.Column="7" HorizontalContentAlignment="Center">J</Label>
+                    <Label  BorderBrush="Red" BorderThickness="2,1,2,2" FontSize="10" Grid.Row="3" Grid.Column="0" HorizontalContentAlignment="Center">K</Label>
+                    <Label  BorderBrush="Red" BorderThickness="2,1,1,2" FontSize="10" Grid.Row="2" Grid.Column="0" HorizontalContentAlignment="Center">L</Label>
+
+                    <Label  BorderBrush="Red" BorderThickness="1,1,1,2" FontSize="10" Grid.Row="3" Grid.Column="2" HorizontalContentAlignment="Center">Z</Label>
+                    <Label  BorderBrush="Red" BorderThickness="1,1,1,2" FontSize="10" Grid.Row="3" Grid.Column="3" HorizontalContentAlignment="Center">X</Label>
+                    <Label  BorderBrush="Red" BorderThickness="1,1,1,2" FontSize="10" Grid.Row="3" Grid.Column="4" HorizontalContentAlignment="Center">C</Label>
+                    <Label  BorderBrush="Red" BorderThickness="1,1,1,2" FontSize="10" Grid.Row="3" Grid.Column="5" HorizontalContentAlignment="Center">V</Label>
+                    <Label  BorderBrush="Red" BorderThickness="1,1,1,2" FontSize="10" Grid.Row="3" Grid.Column="6" HorizontalContentAlignment="Center">B</Label>
+                    <Label  BorderBrush="Red" BorderThickness="1,1,1,2" FontSize="10" Grid.Row="3" Grid.Column="7" HorizontalContentAlignment="Center">N</Label>
+                    <Label  BorderBrush="Red" BorderThickness="1,1,1,2" FontSize="10" Grid.Row="3" Grid.Column="1" HorizontalContentAlignment="Center">M</Label>
+
+                    <Label  BorderBrush="Red" BorderThickness="1,1,2,2" FontSize="10" Grid.Row="3" Grid.Column="8" Grid.ColumnSpan="3" Grid.RowSpan="1" HorizontalContentAlignment="Center" VerticalContentAlignment="Center">Return</Label>
+                    <Label  BorderBrush="Red" BorderThickness="1,1,2,1" FontSize="10" Grid.Row="2" Grid.Column="8" Grid.ColumnSpan="3" Grid.RowSpan="1" HorizontalContentAlignment="Center" VerticalContentAlignment="Center">Space</Label>
+                    <Canvas Grid.Row="0" Grid.Column="11" Grid.ColumnSpan="5" Grid.RowSpan="4">
+                        <Border Name="Amouse" Canvas.Top="20" Canvas.Left="50" Width="40" Height="50">
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition></RowDefinition>
+                                    <RowDefinition></RowDefinition>
+                                    <RowDefinition></RowDefinition>
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition></ColumnDefinition>
+                                    <ColumnDefinition Width="*"></ColumnDefinition>
+                                </Grid.ColumnDefinitions>
+                                <Border Grid.Column="0" x:Name="lftmouse" Background="DeepSkyBlue" BorderBrush="Black" BorderThickness="0,0,1,0" CornerRadius="20,0,0,0"></Border>
+                                <Border Grid.Column="1" x:Name="rttmouse" Background="DeepSkyBlue" BorderBrush="Black" BorderThickness="1,0,0,0" CornerRadius="0,20,0,0"></Border>
+                                <Border Grid.Row="1" Grid.RowSpan="2"  Background="#FFE0C2C2" CornerRadius="0,0,20,20"  Grid.ColumnSpan="2">
+                                    <Border Width="10" Height="10" CornerRadius="12" Background="Yellow">
+                                    </Border>
+                                    </Border>
+                            </Grid>
+                        </Border>
+                    </Canvas>
+                </Grid>
+            </Grid>
+        </Border>
+    </Grid>
+</Window>

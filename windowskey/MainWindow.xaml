@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         WindowStyle="None" Closing="Window_Closing" AllowsTransparency="True" Initialized="Window_Initialized"  Background="Transparent" Title="MainWindow" Height="618" Width="868">
     <Grid>
-        <Image Source="/jiaran.jpg" Margin="234,0,181,313"  ></Image>
+        <Image Source="/jiaran.png" Margin="234,6,181,307"  ></Image>
 
         <Border  Background="Transparent">
             <Grid>

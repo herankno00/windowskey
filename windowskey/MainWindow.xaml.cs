@@ -22,12 +22,13 @@ namespace windowskey
     /// <summary>
     /// MainWindow.xaml 的交互逻辑
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class MainWindow : Window    
     {
         MouseHook mh;
         public MainWindow()
         {
             InitializeComponent();
+            this.Topmost = true;
         }
         protected override void OnMouseLeftButtonDown(System.Windows.Input.MouseButtonEventArgs e)
         {

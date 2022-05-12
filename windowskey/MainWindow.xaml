@@ -4,20 +4,39 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:windowskey"
+        xmlns:hc="https://handyorg.github.io/handycontrol"
         mc:Ignorable="d"
-        WindowStyle="None" Closing="Window_Closing" AllowsTransparency="True" Initialized="Window_Initialized"  Background="Transparent" Title="MainWindow" Height="618" Width="868">
+        WindowStyle="None" Closing="Window_Closing" AllowsTransparency="True" Initialized="Window_Initialized"  Background="Transparent" Title="MainWindow" Height="618" Width="868" ShowInTaskbar="False">
     <Grid>
-        <Image Source="/jiaran.png" Margin="234,6,181,307"  ></Image>
-
+        <hc:NotifyIcon x:Name="NotifyIconContextContent" 
+                   Text="然起来了"
+                   Visibility="Visible"
+                   Icon="favicon.ico">
+            <hc:NotifyIcon.ContextMenu>
+                <ContextMenu>
+                    <MenuItem Command="hc:ControlCommands.ShutdownApp" Header="退出"/>
+                </ContextMenu>
+            </hc:NotifyIcon.ContextMenu>
+        </hc:NotifyIcon>
+        <Image Source="/jiaran.png" Margin="234,7,181,306" RenderTransformOrigin="0.5,0.5"  >
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="5"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
         <Border  Background="Transparent">
             <Grid>
-
-                <Grid x:Name="Grids" Background="White" Height="100" Width="450"   RenderTransformOrigin="0.5,0.5" Margin="40,141,40,49">
+                <Grid x:Name="Grids"  Height="100" Width="450"   RenderTransformOrigin="0.5,0.5" Margin="40,141,40,49">
+                  
                     <Grid.RenderTransform>
                         <TransformGroup>
                             <ScaleTransform/>
                             <SkewTransform AngleX="-30" AngleY="0"/>
-                            <RotateTransform Angle="180"/>
+                            <RotateTransform Angle="185"/>
                             <TranslateTransform/>
                         </TransformGroup>
                     </Grid.RenderTransform>
@@ -107,7 +126,7 @@
                                 <Border Grid.Row="1" Grid.RowSpan="2"  Background="#FFE0C2C2" CornerRadius="0,0,20,20"  Grid.ColumnSpan="2">
                                     <Border Width="10" Height="10" CornerRadius="12" Background="Yellow">
                                     </Border>
-                                    </Border>
+                                </Border>
                             </Grid>
                         </Border>
                     </Canvas>

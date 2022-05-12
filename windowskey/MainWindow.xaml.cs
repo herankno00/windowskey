@@ -24,7 +24,7 @@ namespace windowskey
     /// </summary>
     public partial class MainWindow : Window    
     {
-        MouseHook mh;
+        MouseHook mh;   
         public MainWindow()
         {
             InitializeComponent();
@@ -85,8 +85,12 @@ namespace windowskey
                 l.Background = null;
             }
         }
+   
+
         private void Window_Initialized(object sender, EventArgs e)
         {
+      
+
             bs = lftmouse.Background;
             foreach (object item in Grids.Children)
             {
